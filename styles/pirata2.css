@@ -1,0 +1,24 @@
+/******* hoja de estilo del ejercicio index2 de cancnion del pirata *****/
+
+@font-face {
+        font-family: caligrafia;
+        src: url("../fonts/Roboto-LightItalic.ttf")
+}
+
+body{background-color: black;
+     font-family: caligrafia;} 
+
+#container {background-image: url("../images/fondo2.jpg");
+            background-size:cover;/*estira en vertical y horizontal para que quepa un sola vez*/
+            background-position: 33%;
+            width:90%;
+            margin:auto;
+            padding:30px 0;
+            font-size:2em;}
+   
+#poema {background-color:rgb(170, 154, 154);
+        width: 350px; /* tengo en cuenta que la suma de pixeles debe respetar el ancho de un movil */
+        padding:20px;}
+        margin-left:20px;}        
+      
+}

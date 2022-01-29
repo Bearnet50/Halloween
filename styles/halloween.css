@@ -1,0 +1,162 @@
+/********** Stylesheet for Halloween Party **********/
+/********** THIS PAGE IS NOT RESPONSIVE  ************/
+
+@font-face {
+    font-family: 'halloween';
+    src: url('../fonts/Creepster-Regular.ttf');
+}
+
+body{background-color:black;
+      color:white;
+    font-family: halloween;}
+
+#container {background-image: url("../images/background.jpg") ;
+            width: 1680px; 
+            height:1080px; 
+            margin:auto;
+            position:relative; 
+}
+
+#t1 {font-size : 4em;
+text-shadow:8px 8px 8px red; 
+position:absolute; 
+top:5px;
+left:680px;
+}
+
+#t2 {font-size: 2.5em;
+    text-shadow:8px 8px 8px red; 
+    position:absolute; 
+    top:130px;
+    left:680px;}
+
+
+#t3 {position :absolute;
+    top:580px;
+    left:20px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+
+#t4 {position :absolute;
+    top:650px;
+    left:260px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+    
+#t5 {position :absolute;
+    top:250px;
+    left:100px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+
+#t6 {position :absolute;
+    top:760px;
+    left:955px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+
+#t7 {position :absolute;    
+    top:500px;
+    left:405px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+
+#t8 {position :absolute;    
+    top:370px;
+    left:985px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}    
+
+#t9 {position :absolute;    
+    top:445px;
+    left:1200px;
+    font-size:2em;
+    text-shadow:7px 7px 7px rgb(60, 201, 88);}
+
+
+
+#panther {position:absolute;
+       top:510px;
+       left:-230px;
+       width:500px;
+       visibility: hidden;}    
+
+#ravens {position:absolute;
+    top:550px;
+    left:210px;
+    width:530px;
+    visibility: hidden;}    
+    
+#snake {position:absolute;
+    top:210px;
+    left:60px;
+    width:530px;
+    visibility: hidden;}
+
+#zombie {position:absolute;
+    top:600px;
+    left:800px;
+    width:530px;
+    visibility: hidden;} 
+
+#ghost {position:absolute;
+    top:560px;
+    left:545px;
+    width:330px;
+    visibility: hidden;}     
+   
+#ufo {position:absolute;
+    top:320px;
+    left:890px;
+    width:530px;
+    visibility: hidden;}
+
+#tarantula {position:absolute;
+    top:485px;
+    left:855px;
+    width:530px;
+    visibility: hidden;}    
+
+     
+    
+#zonecat {width:70px;
+    height:120px;  
+    position:absolute;
+    top: 640px;
+    left:20px;}
+
+#zonescarecrow  {width:120px;
+    height:210px; 
+    position:absolute;
+    top:700px;
+    left:330px;}
+
+#zoneeyes {width:85px;
+    height:40px; 
+    position:absolute;
+    top:320px;
+    left:195px;}
+
+#zonecross {width:85px;
+    height:120px;
+    position:absolute;  
+    top:820px;
+    left:1020px;}   
+    
+#zonewindows {width:105px;
+    height:70px; 
+    position:absolute;
+    top:560px;
+    left:545px;}
+
+#zonemoon {width:85px;
+    height:90px;  
+    position:absolute;
+    top:420px;
+    left:1115px;}
+
+#zonebranch {width:105px;
+    height:80px;  
+    position:absolute;
+    top:485px;
+    left:1255px;}
